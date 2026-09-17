@@ -1,0 +1,53 @@
+# Logs & Caches
+*.log
+.DS_Store
+Thumbs.db
+.phpunit.result.cache
+/.phpunit.cache
+_ide_helper.php
+
+# Environment Files (Sangat Rahasia)
+.env
+.env.backup
+.env.production
+
+# Dependencies (Bisa di-install ulang)
+/node_modules
+/vendor
+
+# IDE & Editor Local Configs
+/.agents
+/.claude
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.vscode
+/.zed
+.cursorrules
+.mcp.json
+.phpactor.json
+
+# Storage & Keys
+/storage/*.key
+/storage/pail
+/auth.json
+
+# Public Uploads & Generated Build
+/public/build
+/public/hot
+/public/storage
+/public/avatars
+/public/images
+/public/lampiran
+/public/settings
+/public/fonts-manifest.dev.json
+
+# Homestead / Local Server Tools
+Homestead.json
+Homestead.yaml
+
+#Agent
+/docs
+README.md
+AGENTS.md
